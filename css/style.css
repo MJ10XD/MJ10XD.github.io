@@ -63,7 +63,8 @@ header {
 header.shadow {
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
-.logo,.logo span {
+.logo,
+.logo span {
   font-size: 1.61rem;
   font-weight: 600;
   color: var(--text-color);
@@ -225,8 +226,8 @@ span {
 .js-bar {
   width: 20%;
 }
-.rust-bar {
-  width: 1%;
+.python-bar {
+  width: 5%;
 }
 .services-content {
   display: grid;
@@ -245,9 +246,11 @@ span {
   border-radius: 0.5rem;
   border-bottom: 2px solid var(--main-color);
   box-shadow: 5px 5px 20px #00000033;
+  transition: all 0.2s ease-out;
 }
 .services-box:hover {
-  background-color: #ff008065;
+  /* background-color: #ff008065; */
+  scale: 1.1;
 }
 
 .services-box h3 {
@@ -256,7 +259,7 @@ span {
   margin: 0.7rem 0 0.4rem;
 }
 .services-box:hover h3 {
-  color: #fff;
+  /* color: #fff; */
 }
 .services-box .bx {
   padding-top: 2rem;
@@ -264,7 +267,7 @@ span {
   color: var(--main-color);
 }
 .services-box:hover .bx {
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 .services-box a {
   color: var(--main-color);
@@ -272,7 +275,7 @@ span {
   font-weight: 500;
 }
 .services-box:hover a {
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 .portfolio-content {
   display: grid;
